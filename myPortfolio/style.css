@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* First Section */
+#section {
+    background-color: #f2f2f2; /* Light gray */
+    color: #333; /* Dark text on light background */
+}
+
+.Name {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.ProfilePic {
+    width: 333px;
+    height: 333px;
+    margin: auto;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfilePic img {
+    border-radius: 2%;
+}
+
+.Intro {
+    line-height: 30px;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* About */
+#about {
+    font-family: 'League Spartan', sans-serif;
+    padding: 40px;
+    background-color: #d9d9d9; /* Medium gray */
+    color: #333; /* Dark text on medium background */
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about-me-column,
+.skills-column {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.about-me-column a {
+    color: #333; /* Dark text on medium background */
+}
+
+.about-me-column a:hover {
+    color: #666; /* Darker color on hover, adjust as needed */
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    font-family: 'League Spartan', sans-serif;
+    width: 100px;
+    padding: 10px;
+    background-color: #f2f2f2; /* Light gray */
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* My Work */
+.My-Work {
+    background-color: #b3b3b3; /* Dark gray */
+    color: #fff; /* Light text on dark background */
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 19px;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Even darker color for the footer */
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#SocialLinks a {
+    color: #fff; /* Light text on dark background */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Copyright {
+    color: #fff; /* Light text on dark background */
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+/* Contact Me Link */
+.ContactMeLink a {
+    color: #cc0000; /* Different color for the Contact Me link, adjust as needed */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ContactMeLink a:hover {
+    color: #990000; /* Darker color on hover, adjust as needed */
+}
